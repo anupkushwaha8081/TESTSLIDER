@@ -1,0 +1,120 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* background-color: rgb(242, 239, 236);
+    width: 700px;
+    height: 120%; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* border: 2px solid white; */
+
+    /* position: relative; */
+
+}
+.jobcard{
+    color: rgb(211, 109, 211);
+}
+.testimonials{
+    margin-left: 500px;
+    background-color: rgb(242, 239, 236);
+    width: 650px;
+   
+    /* height: 300px; */
+}
+.imgcard{
+    display: flex;
+    position: absolute;
+top: 11.8rem;
+left: 30rem;
+z-index: 10;
+    margin-left:2 rem;
+}
+.cardimg{
+    width: 150px;
+    height: 150px;
+    border: 3px;
+    /* text-align: right; */
+    
+    /* align-items: center;
+    justify-items: center; */
+     border-radius: 100%; 
+    border: 2px solid rgb(13, 141, 233);
+   
+    
+
+}
+.line{
+    height: 4px;
+    width: 200px;
+
+    text-align: center;
+    background-color: rgb(148, 47, 148);
+    /* margin-top: 3px; */
+    margin-left: 800px;
+    margin-bottom: 30px;
+}
+.bground{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -0.5rem;
+    left: 10px;
+   z-index: -20;
+    background-color: purple;
+}
+.cardname{
+    text-align: center;
+    
+    font-size: larger;
+  
+
+}
+
+
+.button{
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    /* width: 3px; */
+}
+.leftbtn{
+    text-align: left;
+}
+
+.rightbtn{
+    text-align: right;
+}
+.btnsurprise{
+    text-align: center;
+    align-items: center;
+}
+.surprisebtn{
+width: 170px;
+height: 30px;
+color: white;
+
+ 
+margin: auto;
+
+background-color: rgb(156, 18, 168);
+}
+.cardtext{
+   padding-left: 70px;
+   padding-right: 70px;
+    text-align: justify;
+    padding-top: 0;
+}
+
+.quote{
+    text-align: center;
+    color: blueviolet;
+    margin-right: 30px;
+}
+.lowerquote{
+    text-align: center;
+    color: blueviolet;
+    margin-top: 10px;
+}
